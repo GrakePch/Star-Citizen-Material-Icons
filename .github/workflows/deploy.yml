@@ -27,7 +27,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+          token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
