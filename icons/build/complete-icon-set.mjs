@@ -54,10 +54,12 @@ import { REPLACE_MECameraSelfie } from './REPLACE_ME-camera_selfie.icon';
 import { REPLACE_MEFoipPushToTalkProximity } from './REPLACE_ME-foip_pushToTalk_proximity.icon';
 import { REPLACE_MEHeadTracking3RdToggle } from './REPLACE_ME-head_tracking_3rd_toggle.icon';
 import { REPLACE_MEHeadTrackingToggle } from './REPLACE_ME-head_tracking_toggle.icon';
+import { REPLACE_MEArmisticeZone } from './REPLACE_ME-armistice_zone.icon';
 import { REPLACE_MEBinocularsZoomAxis } from './REPLACE_ME-binoculars_zoom_axis.icon';
 import { REPLACE_MEBinocularsZoomIn } from './REPLACE_ME-binoculars_zoom_in.icon';
 import { REPLACE_MEBinocularsZoomOut } from './REPLACE_ME-binoculars_zoom_out.icon';
 import { REPLACE_MEBinoculars } from './REPLACE_ME-binoculars.icon';
+import { REPLACE_MECommSatellite } from './REPLACE_ME-comm_satellite.icon';
 import { REPLACE_MEExitSeat } from './REPLACE_ME-exit_seat.icon';
 import { REPLACE_MEMobiglas } from './REPLACE_ME-mobiglas.icon';
 import { REPLACE_MEStarmap } from './REPLACE_ME-starmap.icon';
@@ -268,6 +270,10 @@ import { REPLACE_MEConfigurationDeploy } from './REPLACE_ME-configuration_deploy
 import { REPLACE_MEConfigurationRetract } from './REPLACE_ME-configuration_retract.icon';
 import { REPLACE_MEConfigurationToggle } from './REPLACE_ME-configuration_toggle.icon';
 import { REPLACE_MEDockingAuto } from './REPLACE_ME-docking_auto.icon';
+import { REPLACE_MEDockingPortL } from './REPLACE_ME-docking_port_l.icon';
+import { REPLACE_MEDockingPortM } from './REPLACE_ME-docking_port_m.icon';
+import { REPLACE_MEDockingPortS } from './REPLACE_ME-docking_port_s.icon';
+import { REPLACE_MEDockingPortXl } from './REPLACE_ME-docking_port_xl.icon';
 import { REPLACE_MEDockingToggle } from './REPLACE_ME-docking_toggle.icon';
 import { REPLACE_MEDockingViewToggle } from './REPLACE_ME-docking_view_toggle.icon';
 import { REPLACE_MEDoorsClose } from './REPLACE_ME-doors_close.icon';
@@ -277,12 +283,20 @@ import { REPLACE_MEEject } from './REPLACE_ME-eject.icon';
 import { REPLACE_MEEsp } from './REPLACE_ME-esp.icon';
 import { REPLACE_MEExitSeatEmergency } from './REPLACE_ME-exit_seat_emergency.icon';
 import { REPLACE_MEFlightReady } from './REPLACE_ME-flight_ready.icon';
+import { REPLACE_MEHangerL } from './REPLACE_ME-hanger_l.icon';
+import { REPLACE_MEHangerM } from './REPLACE_ME-hanger_m.icon';
+import { REPLACE_MEHangerS } from './REPLACE_ME-hanger_s.icon';
+import { REPLACE_MEHangerXl } from './REPLACE_ME-hanger_xl.icon';
 import { REPLACE_MEHorn } from './REPLACE_ME-horn.icon';
 import { REPLACE_MELandingAtcRequest } from './REPLACE_ME-landing_atc_request.icon';
 import { REPLACE_MELandingAuto } from './REPLACE_ME-landing_auto.icon';
 import { REPLACE_MELandingGearDeploy } from './REPLACE_ME-landing_gear_deploy.icon';
 import { REPLACE_MELandingGearRetract } from './REPLACE_ME-landing_gear_retract.icon';
 import { REPLACE_MELandingGearToggle } from './REPLACE_ME-landing_gear_toggle.icon';
+import { REPLACE_MELandingPadL } from './REPLACE_ME-landing_pad_l.icon';
+import { REPLACE_MELandingPadM } from './REPLACE_ME-landing_pad_m.icon';
+import { REPLACE_MELandingPadS } from './REPLACE_ME-landing_pad_s.icon';
+import { REPLACE_MELandingPadXl } from './REPLACE_ME-landing_pad_xl.icon';
 import { REPLACE_MELookAheadEnable } from './REPLACE_ME-look_ahead_enable.icon';
 import { REPLACE_MELookBehind } from './REPLACE_ME-look_behind.icon';
 import { REPLACE_MEMonocularZoomAxis } from './REPLACE_ME-monocular_zoom_axis.icon';
@@ -298,6 +312,7 @@ import { REPLACE_MEPortsLockToggle } from './REPLACE_ME-ports_lock_toggle.icon';
 import { REPLACE_MEPortsLock } from './REPLACE_ME-ports_lock.icon';
 import { REPLACE_MEPortsUnlock } from './REPLACE_ME-ports_unlock.icon';
 import { REPLACE_MEQuantumBubbleAndShip } from './REPLACE_ME-quantum_bubble_and_ship.icon';
+import { REPLACE_MEQuantumDampened } from './REPLACE_ME-quantum_dampened.icon';
 import { REPLACE_MEQuantumEngage } from './REPLACE_ME-quantum_engage.icon';
 import { REPLACE_MEQuantumMarker } from './REPLACE_ME-quantum_marker.icon';
 import { REPLACE_MEQuantumModeToggle } from './REPLACE_ME-quantum_mode_toggle.icon';
@@ -406,10 +421,12 @@ export var completeIconSet = [
     REPLACE_MEFoipPushToTalkProximity,
     REPLACE_MEHeadTracking3RdToggle,
     REPLACE_MEHeadTrackingToggle,
+    REPLACE_MEArmisticeZone,
     REPLACE_MEBinocularsZoomAxis,
     REPLACE_MEBinocularsZoomIn,
     REPLACE_MEBinocularsZoomOut,
     REPLACE_MEBinoculars,
+    REPLACE_MECommSatellite,
     REPLACE_MEExitSeat,
     REPLACE_MEMobiglas,
     REPLACE_MEStarmap,
@@ -620,6 +637,10 @@ export var completeIconSet = [
     REPLACE_MEConfigurationRetract,
     REPLACE_MEConfigurationToggle,
     REPLACE_MEDockingAuto,
+    REPLACE_MEDockingPortL,
+    REPLACE_MEDockingPortM,
+    REPLACE_MEDockingPortS,
+    REPLACE_MEDockingPortXl,
     REPLACE_MEDockingToggle,
     REPLACE_MEDockingViewToggle,
     REPLACE_MEDoorsClose,
@@ -629,12 +650,20 @@ export var completeIconSet = [
     REPLACE_MEEsp,
     REPLACE_MEExitSeatEmergency,
     REPLACE_MEFlightReady,
+    REPLACE_MEHangerL,
+    REPLACE_MEHangerM,
+    REPLACE_MEHangerS,
+    REPLACE_MEHangerXl,
     REPLACE_MEHorn,
     REPLACE_MELandingAtcRequest,
     REPLACE_MELandingAuto,
     REPLACE_MELandingGearDeploy,
     REPLACE_MELandingGearRetract,
     REPLACE_MELandingGearToggle,
+    REPLACE_MELandingPadL,
+    REPLACE_MELandingPadM,
+    REPLACE_MELandingPadS,
+    REPLACE_MELandingPadXl,
     REPLACE_MELookAheadEnable,
     REPLACE_MELookBehind,
     REPLACE_MEMonocularZoomAxis,
@@ -650,6 +679,7 @@ export var completeIconSet = [
     REPLACE_MEPortsLock,
     REPLACE_MEPortsUnlock,
     REPLACE_MEQuantumBubbleAndShip,
+    REPLACE_MEQuantumDampened,
     REPLACE_MEQuantumEngage,
     REPLACE_MEQuantumMarker,
     REPLACE_MEQuantumModeToggle,
